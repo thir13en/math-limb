@@ -1,3 +1,3 @@
-# case-utils
+# Math Limb
 
-Case transforming utils, made easy
+Knowledge on maths, find out more [here](notes/index.md).
