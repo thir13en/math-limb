@@ -12,3 +12,6 @@ Found a consistent explanation to Eistein equations where time is circular. Died
 1. Euclid
 1. Eudoxus
 1. Zeno of Elea
+1. Gottlob Frege
+1. Giuseppe Peano
+1. Richard Dedekind
