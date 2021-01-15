@@ -15,3 +15,5 @@ Found a consistent explanation to Eistein equations where time is circular. Died
 1. Gottlob Frege
 1. Giuseppe Peano
 1. Richard Dedekind
+1. Alan Turing
+1. Solomon Feferman;
