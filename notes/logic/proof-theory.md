@@ -10,4 +10,10 @@ Structural proof theory is the subdiscipline of proof theory that studies the sp
 * The natural deduction calculi
 * The sequent calculi
 
+### Ordinal analysis
+Ordinal analysis is a powerful technique for providing combinatorial consistency proofs for subsystems of arithmetic, analysis, and set theory. Gödel's second incompleteness theorem is often interpreted as demonstrating that finitistic consistency proofs are impossible for theories of sufficient strength. Ordinal analysis allows one to measure precisely the infinitary content of the consistency of theories. For a consistent recursively axiomatized theory T, one can prove in finitistic arithmetic that the well-foundedness of a certain transfinite ordinal implies the consistency of T. Gödel's second incompleteness theorem implies that the well-foundedness of such an ordinal cannot be proved in the theory T.
+
+### Provability logic
+
+
 ### Proof by Induction
