@@ -8,3 +8,8 @@ In a form, defined by Aristotle, from the combination of a general statement (th
     All men are mortal.
     Socrates is a man.
     Therefore, Socrates is mortal.
+
+### The Laws of Logic
+1. The Law of Identity: `P -> P`
+1. The Law of Non-Contradiction: `P != !P`
+1. The Law of Excluded Middle: `P v !P`

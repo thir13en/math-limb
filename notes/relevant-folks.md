@@ -19,3 +19,4 @@ Found a consistent explanation to Eistein equations where time is circular. Died
 1. Solomon Feferman
 1. John Forbes Nash Jr.
 1. Harvey Friedman
+1. L. E. J. Brouwer
