@@ -6,3 +6,6 @@ Inferences are steps in reasoning, moving from premises to logical consequences;
 
 ### Proof
 A mathematical proof is an inferential argument for a mathematical statement, showing that the stated assumptions logically guarantee the conclusion.
+
+### Set
+A `Collection` of things that are referred to as `Elements` of the Set.
