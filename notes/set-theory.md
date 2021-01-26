@@ -1,3 +1,16 @@
 # Set Theory
 
 Deriving from Bertrand Russell's **Type Theory**
+
+### Set
+A `Collection` of things that are referred to as `Elements` of the Set.
+
+### Notation
+```
+SetName = {element1, element2... elementn}
+# SetName tends to be a capital letter: A, B, C...
+```
+To notate that there is an undefinite amount of non listed elements, you do so with `ellipses`
+```
+SetName = { element1, element2... }
+```
