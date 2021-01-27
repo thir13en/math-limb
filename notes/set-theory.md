@@ -13,4 +13,13 @@ SetName = {element1, element2... elementn}
 To notate that there is an undefinite amount of non listed elements, you do so with `ellipses`
 ```
 SetName = { element1, element2... }
+# these wrapping brackets are named set brackets or braces
+```
+The symbol to determine that an `element` belongs to a `set` is ∈.
+```
+A = {b, 1, 0} => b ∈ A, 1 ∈ A, 0 ∈ A
+```
+The symbol to determine that an `element` does NOT belong to a `set` is ∉.
+```
+A = {b, 1, 0} => 7 ∉ A
 ```
