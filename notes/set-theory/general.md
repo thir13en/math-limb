@@ -1,4 +1,4 @@
-# Set Theory
+# General
 
 Deriving from Bertrand Russell's **Type Theory**
 
