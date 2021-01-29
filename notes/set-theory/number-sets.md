@@ -24,5 +24,15 @@ Numbers that we cannot represent have by having the ratio of two integers. {...�
 Both Rational and Irrational Numbers
 We can note that {ℚ, ~ℚ} ∈ ℝ.
 
-### Imaginary Numbers
-,,,,ℂ
+### Imaginary/Complex Numbers
+∈ ℂ
+Numbers such as when you square them you obtain a negative value. They are named imaginary because indeed they do not exist in the field of non-imagined reality. **Complex numbers** is a combination of a `Real` part and an `Imaginary` one. 
+They have the following syntax:
+```
+a + bi WHERE i² = -1
+```
+Where `a` is the `Real` part and `bi` is the `Imaginary` one. For example:
+```
+sqrt(-9) = sqrt(9) * sqrt(-1) = 3i
+```
+ℂ = { Imaginary, ℝ }
