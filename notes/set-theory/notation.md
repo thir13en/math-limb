@@ -11,7 +11,11 @@ The set with all the shapes, such as the shapes are Blue
 
 { x | x = y }
 ```
-Example: with the following set of elements: -5, 4, 2, 8, -6, -1, create a set with only the negative elements:  
+Example: with the following set A of elements: -5, 4, 2, 8, -6, -1, create a set with only the negative elements:  
 ```
-{ x | x < 0 }
+{ x ∈ A | x < 0 }
+```
+The set with all the real numbers between -2 and 5:
+```
+{ x ∈ ℝ | -2 < x < 5 }
 ```
