@@ -11,3 +11,5 @@ Mathematical logic is often divided into the fields of **set theory**, **model t
 1. [Relevant Folks](relevant-folks.md)
 1. [Resources](resources.md)
 1. [Set Theory](set-theory.md)
+1. [Skills](skills.md.md)
+1. [Syntax](syntax.md)
