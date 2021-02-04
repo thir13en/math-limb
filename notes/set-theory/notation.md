@@ -19,3 +19,7 @@ The set with all the real numbers between -2 and 5:
 ```
 { x ∈ ℝ | -2 < x < 5 }
 ```
+For all elements of a set A:
+```
+∀ x ∈ A
+```
