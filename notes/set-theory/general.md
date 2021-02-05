@@ -25,7 +25,7 @@ A = {b, 1, 0} => 7 ∉ A
 ```
 
 ### Cardinality of a Set
-The total amount of elements that a Set has
+The total amount of elements that a Set has, noted as `n(SetName)`.
 
 ### Equivalent Sets
 Two sets are equivalent if they have the SAME amount of elements, doesn't matter if the elements themselves match or not.

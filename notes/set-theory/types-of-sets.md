@@ -21,4 +21,22 @@ A set that contains only a subgroup of the elements in another set, such as that
 ```
 ∀ x ∈ B => x ∈ A
 ```
+The notation is as follows
+```
+B ⊆ A
+```
+Of A is a superset of B
+```
+B ⊃ A
+```
+It is true that every set is a susbset of themselves, and also the empty set is a subset of EVERY set
+```
+A ⊆ A & A = A
+```
 
+### Proper Subset
+A is a Proper Subset of B if B contains ALL the elements in A and at least one more element not contained in A
+The notation is the same without the line underneath.
+```
+A ⊂ B
+```
