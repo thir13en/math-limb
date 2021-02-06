@@ -40,3 +40,12 @@ The notation is the same without the line underneath.
 ```
 A ⊂ B
 ```
+
+### Power Set
+Power Set of A `P(A)` is a set **with all subsets of A**.
+```
+B = {0, 1}
+
+P(B) = {{}, {0}, {1}, {0, 1}}
+```
+It is true that the number of elements on a Power Set is 2^n where n is the number of elements of the initial set.
