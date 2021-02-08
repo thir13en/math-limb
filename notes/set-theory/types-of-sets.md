@@ -49,3 +49,18 @@ B = {0, 1}
 P(B) = {{}, {0}, {1}, {0, 1}}
 ```
 It is true that the number of elements on a Power Set is 2^n where n is the number of elements of the initial set.
+
+### Ordered Tuples
+It is a kind of Set where the arrangement or order MATTERS, the notation is as follows:
+```
+A = (el1, el2, el3, ... eln)
+```
+Ordered pair or ordered 2_Tuple
+```
+A = (el1, el2)
+```
+Ordered n_Tuple
+```
+A = (el1, el2, el3, ... eln)
+```
+Ordered Tuples **can have repeated elements**.
