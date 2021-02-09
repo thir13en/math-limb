@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main() {
-	printf("CONNECTED\n");
+	printf("( T | r | i | g | o | n | o | m | e | t | r | i | u | s )\n");
 }
