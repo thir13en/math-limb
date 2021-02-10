@@ -9,3 +9,7 @@ A mathematical proof is an inferential argument for a mathematical statement, sh
 
 ### Set
 A `Collection` of things that are referred to as `Elements` of the Set.
+
+### Operation Properties
+#### Commutativity
+The order of the operands does NOT affect the result of the operation.
