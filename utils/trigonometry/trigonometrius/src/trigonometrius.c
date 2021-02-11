@@ -7,4 +7,11 @@ int main() {
 	printf("1 -> angle in rad\n");
 	printf("2 -> oppesed side\n");
 	printf("3 -> adjacent side\n");
+
+	int number;
+	scanf("%d", &number);
+
+	if (number > 0 && number < 4) {
+		printf("Success!!!\n");
+	}
 }
