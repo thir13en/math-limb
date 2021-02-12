@@ -10,3 +10,6 @@ To do it in three dimensions:
 ```
 ℝ x ℝ x ℝ
 ```
+
+### Venn Diagrams
+Created by John Venn, brittish logician. Overlapping cercles to illustrate the relationshit between two or more set of items. S subset will give nested circles.

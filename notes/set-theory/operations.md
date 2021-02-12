@@ -22,3 +22,5 @@ A x B x C != (A x B) x C
 # As the result of cartesian operation is ordered n_Tuples, the prior example will result in nested Tuples.
 ```
 You can think of Cartesian Products of n Sets as the n-dimensional table resulting for combining the Ordered n_Tuples of all their elements.
+
+### Union
