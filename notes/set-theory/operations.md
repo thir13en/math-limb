@@ -24,3 +24,19 @@ A x B x C != (A x B) x C
 You can think of Cartesian Products of n Sets as the n-dimensional table resulting for combining the Ordered n_Tuples of all their elements.
 
 ### Union
+If you have two or more sets, the Union of them is basically the resulting Set that contains ALL the elements in the united sets.
+```
+A = {a, b}
+B = {1, 2}
+A ∪ B = {a. b, 1, 2}
+A ∪ B = { x | (x ∈ A) v (x ∈ B) }
+```
+
+### Intersection
+If you have two or more sets, the Intersection of them is basically the resulting Set that contains ONLY the elements common in all the sets.
+```
+A = {a, b, 3}
+B = {1, 2, 3}
+A ∩ B = { 3 }
+A ∩ B = { x | (x ∈ A) ^ (x ∈ B) }
+```

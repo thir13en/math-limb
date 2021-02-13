@@ -1,5 +1,8 @@
 # Notation
 
+### Symbols
+∈
+
 ### Set Builder Notation
 The syntax to create and define sets, for example:
 ```
