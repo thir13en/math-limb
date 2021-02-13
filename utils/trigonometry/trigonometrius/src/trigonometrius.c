@@ -7,6 +7,12 @@ void printMenu() {
 	printf("2 -> adjacent side\n");
 };
 
+void printAngleMeasurementUnitsMenu() {
+	printf("Select angle measurement unit::\n");
+	printf("r -> radians\n");
+	printf("d -> degrees\n");
+};
+
 int main() {
 	printf("( T | r | i | g | o | n | o | m | e | t | r | i | u | s )\n\n");
 
@@ -16,8 +22,15 @@ int main() {
 		int number;
 		scanf("%d", &number);
 
+		char measurementUnit;
 		if (number == 0) {
-			printf("Choose angle measure type\n");
+			while(1) {
+				printAngleMeasurementUnitsMenu();
+
+				// FIX: seems to have a character in the stdIn buffer
+				scanf("%c", &measurementUnit);
+				printf("Success!!!\n");
+			}
 		}
 
 		if (number > 0 && number < 4) {
