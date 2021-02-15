@@ -40,3 +40,15 @@ B = {1, 2, 3}
 A ∩ B = { 3 }
 A ∩ B = { x | (x ∈ A) ^ (x ∈ B) }
 ```
+
+### Properties of Union and Intersection
+```
+# Commutative Property
+# The Order of the Operands does not affect the Result
+A ∪ B = B ∪ A
+A ∩ B = B ∩ A
+# Associative Property
+# The Order in which an Operation is conducted, does NOT matter
+(A ∪ B) ∪ C = A ∪ (B ∪ C)
+(A ∩ B) ∩ C = A ∩ (B ∩ C)
+```
