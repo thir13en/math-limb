@@ -13,6 +13,11 @@ void printAngleMeasurementUnitsMenu() {
 	printf("d -> degrees\n");
 };
 
+void cleanInput() {
+	int c;
+	while ((c = getchar()) != '\n' && c != EOF) {}
+}
+
 int main() {
 	printf("( T | r | i | g | o | n | o | m | e | t | r | i | u | s )\n\n");
 
@@ -21,15 +26,16 @@ int main() {
 
 		int number;
 		scanf("%d", &number);
+		cleanInput();
 
 		char measurementUnit;
 		if (number == 0) {
 			while(1) {
 				printAngleMeasurementUnitsMenu();
 
-				// FIX: seems to have a character in the stdIn buffer
 				scanf("%c", &measurementUnit);
-				printf("Success!!!\n");
+				cleanInput();
+				printf("%c\n", measurementUnit);
 			}
 		}
 
