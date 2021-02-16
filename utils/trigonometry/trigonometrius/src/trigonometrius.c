@@ -30,17 +30,22 @@ int main() {
 
 		char measurementUnit;
 		if (number == 0) {
-			while(1) {
+			int noUnitSelected = 1;
+			while(noUnitSelected) {
 				printAngleMeasurementUnitsMenu();
 
 				scanf("%c", &measurementUnit);
 				cleanInput();
-				printf("%c\n", measurementUnit);
+
+				if (measurementUnit == 'd' || measurementUnit == 'r') {
+					printf("Success!!!\n");
+					noUnitSelected = 0;
+				}
 			}
 		}
 
 		if (number > 0 && number < 4) {
-			printf("Success!!!\n");
+			printf("Success Two!!!\n");
 		};
 	};
 }
