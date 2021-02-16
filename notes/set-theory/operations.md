@@ -51,4 +51,14 @@ A ∩ B = B ∩ A
 # The Order in which an Operation is conducted, does NOT matter
 (A ∪ B) ∪ C = A ∪ (B ∪ C)
 (A ∩ B) ∩ C = A ∩ (B ∩ C)
+# Distributive Property
+A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+# Identity and null operators
+A ∪ {} = A
+A ∩ {} = {}
+A ∪ U = U # U is the Universal set
+# Idempotent Property
+A ∩ A = A
+A ∪ A = A
 ```
