@@ -62,3 +62,11 @@ A ∪ U = U # U is the Universal set
 A ∩ A = A
 A ∪ A = A
 ```
+
+### Difference
+Subtract elements of one set from another:
+```
+A = {1, 2, 3}
+B = { 2, 3 }
+A - B = { 1 }
+```
