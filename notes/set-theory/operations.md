@@ -70,3 +70,11 @@ A = {1, 2, 3}
 B = { 2, 3 }
 A - B = { 1 }
 ```
+
+### Compliment
+ALL of the elements that are NOT in the set but are in the Universal set it belongs to.
+```
+Ac = { x ∈ U | x !∈ A}
+B = { 2, 3 }
+A - B = { 1 }
+```
