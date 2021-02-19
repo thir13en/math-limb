@@ -20,11 +20,16 @@ void cleanInput() {
 
 enum data {angle, opposite, adjacent};
 enum angleType {radians, degrees};
+struct input {
+	int type;
+	int value;
+};
 
 int main() {
 	printf("( T | r | i | g | o | n | o | m | e | t | r | i | u | s )\n\n");
 
-	while(1) {
+	int dataPoints = 0;
+	while(dataPoints < 2) {
 		printMenu();
 
 		int number;
