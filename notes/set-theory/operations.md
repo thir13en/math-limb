@@ -78,3 +78,12 @@ Ac = { x ∈ U | x !∈ A}
 B = { 2, 3 }
 A - B = { 1 }
 ```
+
+### Properties of Difference and Compliment
+```
+
+A ∪ Ac = U
+(Ac)c = A
+Uc = {}, {}c = U
+A - B = A ∩ Bc
+```
