@@ -9,8 +9,8 @@ void printMenu() {
 
 void printAngleMeasurementUnitsMenu() {
 	printf("Select angle measurement unit::\n");
-	printf("0 -> radians\n");
-	printf("1 -> degrees\n");
+	printf("r -> radians\n");
+	printf("d -> degrees\n");
 };
 
 void cleanInput() {
@@ -18,8 +18,7 @@ void cleanInput() {
 	while ((c = getchar()) != '\n' && c != EOF) {}
 }
 
-enum data {angle, opposite, adjacent};
-enum angleType {radians, degrees};
+enum data { angle, opposite, adjacent, radians, degrees };
 struct input {
 	int type;
 	int value;
@@ -42,10 +41,10 @@ int main() {
 			while(noUnitSelected) {
 				printAngleMeasurementUnitsMenu();
 
-				scanf("%d", &measurementUnit);
+				scanf("%c", &measurementUnit);
 				cleanInput();
 
-				if (measurementUnit == radians || measurementUnit == degrees) {
+				if (measurementUnit == 'd' || measurementUnit == 'r') {
 					printf("Success!!!\n");
 					noUnitSelected = 0;
 				}
