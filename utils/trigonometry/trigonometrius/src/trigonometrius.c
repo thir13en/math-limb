@@ -30,9 +30,12 @@ int main() {
 	int dataPoints = 0;
 	while(dataPoints < 2) {
 		printMenu();
-
+		// TODO learn C basics
 		int number;
 		scanf("%d", &number);
+		int vector[2];
+		int size = sizeof(vector);
+		printf("%d\n", vector[0]);
 		cleanInput();
 
 		int measurementUnit;
@@ -41,7 +44,7 @@ int main() {
 			while(noUnitSelected) {
 				printAngleMeasurementUnitsMenu();
 
-				scanf("%c", &measurementUnit);
+				scanf("%d", &measurementUnit);
 				cleanInput();
 
 				if (measurementUnit == 'd' || measurementUnit == 'r') {

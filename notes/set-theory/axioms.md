@@ -13,3 +13,4 @@ So the `elements` are the entities that are unique, regardless on how many times
 ```
 (A ∪ B)c = Ac ∩ Bc
 (A ∩ B)c = Ac ∪ Bc
+```
