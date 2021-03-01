@@ -64,3 +64,12 @@ Ordered n_Tuple
 A = (el1, el2, el3, ... eln)
 ```
 Ordered Tuples **can have repeated elements**.
+
+### Disjoint Sets
+Two sets A and B are Disjoint Sets **iff (if and only if) they don't have any element in common**. So for Disjoints sets it is true that:
+```
+A ∩ B = {};
+```
+
+#### Maturely Disjoint Sets
+A group of sets (more that two) are Maturely Disjoint **iff no pair of sets within the group has any element in common**. This sets would be like islands when represented in a Venn Diagram.
