@@ -87,3 +87,8 @@ A ∪ Ac = U
 Uc = {}, {}c = U
 A - B = A ∩ Bc
 ```
+
+### Partition of a Set
+A Finite or non Finite collection of non empty sets is a Partition of a Set A iff:
+1. A is the Union of all of them
+1. The Sets are maturely disjoint
