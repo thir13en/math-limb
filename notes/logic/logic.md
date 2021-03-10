@@ -1,5 +1,8 @@
 # Logic
 
+### Statements
+Building blocks of logic, they are a `proposition` that must fulfil the condition of either being `true` or `false`. A statement cannot have incognitas, it has to be defined so as to directly infer from it if it is true or false. Normally you DON'T write the whole statement or proposition, but use a capital letter that represents it.
+
 ### Syllogism
 A **syllogism** (Greek: συλλογισμός, syllogismos, 'conclusion, inference') is a kind of logical argument that applies **deductive reasoning** to arrive at a conclusion based on two or more **propositions** that are asserted or assumed to be true.
 
