@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void printMenu() {
-	printf("Select what elements you know:\n");
+	printf("Select the two known elements:\n");
 	printf("0 -> angle\n");
 	printf("1 -> oppesed side\n");
 	printf("2 -> adjacent side\n");
@@ -27,35 +27,40 @@ struct input {
 int main() {
 	printf("( T | r | i | g | o | n | o | m | e | t | r | i | u | s )\n\n");
 
-	int dataPoints = 0;
-	while(dataPoints < 2) {
+	int knownElements[2];
+	int storedValuesCount = 0;
+
+	
+	while(storedValuesCount < 2) {
 		printMenu();
-		// TODO learn C basics
-		int number;
-		scanf("%d", &number);
-		int vector[2];
-		int size = sizeof(vector);
-		printf("%d\n", vector[0]);
+
+		int menuOption;
+		scanf("%d", &menuOption);
+		printf("%d\n", knownElements[storedValuesCount]);
+
 		cleanInput();
 
-		int measurementUnit;
-		if (number == angle) {
-			int noUnitSelected = 1;
-			while(noUnitSelected) {
-				printAngleMeasurementUnitsMenu();
+		storedValuesCount++;
+	}
 
-				scanf("%d", &measurementUnit);
-				cleanInput();
+		// int measurementUnit;
+		// if (number == angle) {
+		// 	int noUnitSelected = 1;
+		// 	while(noUnitSelected) {
+		// 		printAngleMeasurementUnitsMenu();
 
-				if (measurementUnit == 'd' || measurementUnit == 'r') {
-					printf("Success!!!\n");
-					noUnitSelected = 0;
-				}
-			}
-		}
+		// 		scanf("%d", &measurementUnit);
+		// 		cleanInput();
 
-		if (number > 0 && number < 2) {
-			printf("Success Two!!!\n");
-		};
-	};
+		// 		if (measurementUnit == 'd' || measurementUnit == 'r') {
+		// 			printf("Success!!!\n");
+		// 			noUnitSelected = 0;
+		// 		}
+		// 	}
+		// }
+
+		// if (number > 0 && number < 2) {
+		// 	printf("Success Two!!!\n");
+		// };
+	// };
 }
