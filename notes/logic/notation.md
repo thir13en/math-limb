@@ -1,0 +1,5 @@
+# Notation
+
+* Negation: ¬
+* Conjunction: ∧
+* Disjuntion: ∨
