@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-void printMenu() {
+void printMenu(char** entities) {
 	printf("Select the two known elements:\n");
-	printf("0 -> angle\n");
-	printf("1 -> oppesed side\n");
-	printf("2 -> adjacent side\n");
+
+	// TODO figure out
+	for (int i=0; i<sizeof(entities) / 2; i++) {
+		printf("%d -> %s\n", i, entities[i]);
+	}
 };
 
 void printAngleMeasurementUnitsMenu() {
@@ -18,7 +20,14 @@ void cleanInput() {
 	while ((c = getchar()) != '\n' && c != EOF) {}
 }
 
-enum data { angle, opposite, adjacent, radians, degrees };
+char* trigonometricEntities[] = { "angle", "opposite side", "adjacent side", "hypotenuse" };
+enum data {
+	angle,
+	opposite,
+	adjacent,
+	hypotenuse
+};
+
 struct input {
 	int type;
 	int value;
@@ -27,22 +36,49 @@ struct input {
 int main() {
 	printf("( T | r | i | g | o | n | o | m | e | t | r | i | u | s )\n\n");
 
-	int knownElements[2];
+	int dataNeeded = 2;
+	int knownElements[dataNeeded];
 	int storedValuesCount = 0;
 
-	
-	while(storedValuesCount < 2) {
-		printMenu();
+	while(storedValuesCount < dataNeeded) {
+		printMenu(trigonometricEntities);
 
 		int menuOption;
 		scanf("%d", &menuOption);
-		printf("%d\n", knownElements[storedValuesCount]);
 
+		if (menuOption < 0 || menuOption > 3) {
+			printf("Focuss!!!!!\n\n\n");
+			continue;
+		}
+
+		knownElements[storedValuesCount] = menuOption;
 		cleanInput();
 
 		storedValuesCount++;
 	}
 
+	char* desiredMagnitude;
+	char* obtainedData[dataNeeded];
+
+	for (int i=0; i<2; i++) {
+		switch(knownElements[i]) {
+			case 0:
+				obtainedData[i] = "angle";
+				break;
+			case 1:
+				obtainedData[i] = "opposite side";
+				break;
+			case 2:
+				obtainedData[i] = "adjacent side";
+				break;
+			case 3:
+				obtainedData[i] = "hypotenuse";
+				break;
+		}
+	}
+
+
+	printf("Ok, so you know the %s and the %s\n", obtainedData[0], obtainedData[1]);
 		// int measurementUnit;
 		// if (number == angle) {
 		// 	int noUnitSelected = 1;
