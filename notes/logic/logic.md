@@ -24,3 +24,12 @@ They are basically a set of several statement connected by `logical connectors`.
 * AND -> Conjunction
 * OR  -> Disjunction
 * NEGATION
+
+### Truth Tables
+Truth tables are a tool to figure out wheather a compound statement is true or false. Example:
+
+P 		Q 		P ∧ Q
+F 		F 		  F
+F 		T 		  F
+T 		F 		  F
+T 		T 		  T
