@@ -3,9 +3,10 @@
 void printMenu(char** entities) {
 	printf("Select the two known elements:\n");
 
-	// TODO figure out
-	for (int i=0; i<sizeof(entities) / 2; i++) {
+	int i = 0;
+	while(entities[i] != NULL) {
 		printf("%d -> %s\n", i, entities[i]);
+		i++;
 	}
 };
 
@@ -20,7 +21,13 @@ void cleanInput() {
 	while ((c = getchar()) != '\n' && c != EOF) {}
 }
 
-char* trigonometricEntities[] = { "angle", "opposite side", "adjacent side", "hypotenuse" };
+char* trigonometricEntities[] = {
+	"angle",
+	"opposite side",
+	"adjacent side",
+	"hypotenuse",
+	NULL
+};
 enum data {
 	angle,
 	opposite,
