@@ -44,7 +44,7 @@ int main() {
 	printf("( T | r | i | g | o | n | o | m | e | t | r | i | u | s )\n\n");
 
 	int dataNeeded = 2;
-	int knownElements[dataNeeded];
+	int knownEntities[dataNeeded];
 	int storedValuesCount = 0;
 
 	while(storedValuesCount < dataNeeded) {
@@ -58,7 +58,7 @@ int main() {
 			continue;
 		}
 
-		knownElements[storedValuesCount] = menuOption;
+		knownEntities[storedValuesCount] = menuOption;
 		cleanInput();
 
 		storedValuesCount++;
@@ -68,7 +68,7 @@ int main() {
 	char* obtainedData[dataNeeded];
 
 	for (int i=0; i<2; i++) {
-		switch(knownElements[i]) {
+		switch(knownEntities[i]) {
 			case 0:
 				obtainedData[i] = "angle";
 				break;
